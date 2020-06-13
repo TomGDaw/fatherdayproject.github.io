@@ -1,0 +1,163 @@
+body {
+    background-color: #eff4ff;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #197BBD;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header img {
+    width: 400px;
+    height: auto;
+    border: 2px black solid;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px black;
+    background-color: #eff4ff;
+}
+
+h1 {
+    font-family: 'Tomorrow', sans-serif;
+}
+
+h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Gayathri', sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #C2B8B2;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+nav a {
+    color: #090a0a;
+    text-decoration: none;
+    line-height: 1em;
+    display: block;
+    padding: 1%;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 1.3em;
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+}
+
+footer {
+    background-color: #197BBD;
+    padding: 5px 20px;
+    height: auto;
+    text-align: center;
+}
+
+.navigation a:hover {
+    background-color: #8A716A;
+    text-decoration: underline;
+    font-size: 22px;
+} 
+
+#active {
+    background-color: #8A716A;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+/* iPhoneX views */
+header,
+nav,
+main,
+footer {
+    max-width: 100%;
+    margin: 0 auto;
+    flex-flow: column;
+}
+
+main {
+    padding-top: 10px;
+    font-size: 0.8rem;
+    max-width: 850px;
+}
+
+.responsive li {
+	display: block;
+}
+
+.navigation {
+    display: flex;
+}
+.navigation li {
+    display: none; /* needed because of state in small view */
+    flex: 1 1 100%;
+}
+.navigation li a {
+    text-align: center;
+}
+
+.responsive li {
+    display: block;
+}
+
+/* Pictures and sections */
+
+.dad img {
+    max-width: 90%;
+    margin-bottom: 10px;
+    border: 2px black solid;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px black;
+    background-color: #eff4ff;
+}
+
+.dad {
+    background-color: #197BBD;
+    border: 2px black solid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1px;
+    margin: 10px;
+    max-width: 850px;
+}
+
+.row1 {
+    background-color: #1966BD;
+    font-family: 'Spicy Rice';
+}
+
+.row2 {
+    background-color: #1966BD;
+    font-family: 'Spicy Rice';
+}

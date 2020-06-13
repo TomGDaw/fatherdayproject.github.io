@@ -1,0 +1,26 @@
+/* iPad Views */
+@media only screen and (min-width: 37.5em) {
+
+    header footer main {
+        width: 100%;
+        height: auto;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    ul {
+        flex-direction: row;
+    }
+
+    ul li {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+}
